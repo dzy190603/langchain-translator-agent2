@@ -6,9 +6,6 @@ sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 # 然后再导入其他模块
 import streamlit as st
 from agent import PolicyAgent
-
-import streamlit as st
-from agent import PolicyAgent
 from dotenv import load_dotenv
 from langchain_core.messages import HumanMessage, AIMessage
 from custom_callbacks import StreamlitStreamingCallback
